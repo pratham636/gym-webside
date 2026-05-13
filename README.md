@@ -38,9 +38,3 @@ The "Join Now" form uses JavaScript to validate user data in real-time using the
 3. Open `index.html` in any modern web browser to view the site.
 
 ---
-
-## 📝 Future Enhancements
-* [ ] **Mobile Responsiveness:** Add Media Queries for smartphones.
-* [ ] **Code Organization:** Move internal CSS and JS to external files.
-* [ ] **Backend Integration:** Connect the form to a database using PHP or Node.js.
-* [ ] **Dark Mode:** Add a toggle for easier night-time viewing.

@@ -12,34 +12,35 @@ To run this project, ensure your folder structure looks like this:
 * `1.jpg` (Background Image)
 * `1.png` (Logo Image)
 
-> **Note:** The images must be named exactly `1.jpg` and `1.png` for the CSS to load them automatically.
+> **Note:** The images must be named exactly `1.jpg` and `1.png` for the CSS to load them correctly.
 
 ### Step 2: Google Fonts API Integration
-The "athletic" look of the site is achieved using the Google Fonts API in two parts:
-1. **The Link:** We import 'Baloo 2' and 'Baloo Bhai 2' in the `<head>` section.
-2. **The CSS:** We apply `font-family: 'Baloo 2', cursive;` to the body, buttons, and form inputs for a consistent brand feel.
+The "athletic" look of the site is achieved using the **Google Fonts API**:
+1. **The Link:** We import 'Baloo 2' and 'Baloo Bhai 2' in the `<head>` section via the Google CDN.
+2. **The CSS:** We apply `font-family` rules to the body, buttons, and form inputs to ensure a consistent, bold brand feel across the entire site.
 
 ### Step 3: Interactive Form Validation
-The "Join Now" form includes custom JavaScript functions to ensure data quality:
-* **Email Validation:** Uses Regex (`/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/`) to check for a valid email format.
-* **Phone Validation:** Specifically formatted for Indian numbers, checking for a 10-digit number starting with 6-9.
+The "Join Now" form uses JavaScript to validate user data in real-time using the `onfocusout` event:
+* **Email Validation:** Uses a specific Regex pattern to ensure the email follows the `username@domain.com` format.
+* **Phone Validation:** Custom logic optimized for Indian phone numbers (supporting +91, 0, or standard 10 digits starting with 6-9).
 
 ---
 
 ## 🛠️ Tech Stack
-* **HTML5:** Semantic layout.
-* **CSS3:** Custom positioning, hover effects, and transparency filters.
-* **JavaScript:** Client-side form logic and alerts.
-* **Google Fonts API:** Professional typography.
+* **HTML5:** Semantic layout for SEO and structure.
+* **CSS3:** Absolute positioning, hover transitions, and image filters (invert).
+* **JavaScript:** Logic for form validation and user alerts.
+* **Google Fonts API:** Enhanced typography for a modern UI.
 
-## 💻 Installation
-1. Clone this repository.
-2. Ensure your images are in the root directory.
-3. Open `index.html` in any modern web browser.
+## 💻 Installation & Usage
+1. **Clone** this repository to your local machine.
+2. Ensure your **images** (`1.jpg` and `1.png`) are in the same folder as `index.html`.
+3. Open `index.html` in any modern web browser to view the site.
 
 ---
 
 ## 📝 Future Enhancements
-* [ ] Make the layout fully responsive for mobile devices using Media Queries.
-* [ ] Move internal CSS and JS to external `.css` and `.js` files.
-* [ ] Add a "Dark Mode" toggle.
+* [ ] **Mobile Responsiveness:** Add Media Queries for better viewing on smartphones.
+* [ ] **Code Organization:** Move internal CSS and JS to external `.css` and `.js` files.
+* [ ] **Backend Integration:** Connect the form to a database using PHP or Node.js.
+* [ ] **Dark Mode:** Add a toggle for easier night-time viewing.

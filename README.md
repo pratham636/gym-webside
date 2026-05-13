@@ -44,5 +44,3 @@ The "Join Now" form uses JavaScript to validate user data in real-time using the
 * [ ] **Code Organization:** Move internal CSS and JS to external files.
 * [ ] **Backend Integration:** Connect the form to a database using PHP or Node.js.
 * [ ] **Dark Mode:** Add a toggle for easier night-time viewing.
-* [ ] **Backend Integration:** Connect the form to a database using PHP or Node.js.
-* [ ] **Dark Mode:** Add a toggle for easier night-time viewing.
